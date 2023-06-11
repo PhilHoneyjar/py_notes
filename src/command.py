@@ -74,7 +74,6 @@ def filter_notes_by_date():
         print("Invalid date format. Please enter a date in the format YYYY-MM-DD.")
 
 
-
 def find_note_by_id(notes, note_id):
     for note in notes:
         if str(note['id']) == note_id:
